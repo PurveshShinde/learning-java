@@ -1,10 +1,17 @@
+
+import java.util.*;
+
 public class WhileLoop {
-    public static void main(String[]args){
-        int i =1;
-        while(i<=10){
-            System.out.print(i+" ");
-            i++;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int num = 1;
+
+        while (num <= n) {
+            System.out.print(num + " ");
+            num++;
         }
     }
-    
+
 }
